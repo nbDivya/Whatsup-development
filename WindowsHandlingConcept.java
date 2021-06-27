@@ -63,7 +63,7 @@ public class WindowsHandlingConcept {
         }
         driver.switchTo().window(parentWindow);
         driver.findElement(By.id("name")).sendKeys("siva");//parent Window
-        Thread.sleep(5000);
+        Thread.sleep(5000);//edited 2nd time
 
 
 
