@@ -56,7 +56,7 @@ public class WindowsHandlingConcept {
             {
                 driver.switchTo().window(handle);
                 driver.findElement(By.id("firstName")).sendKeys("Divya");
-                Thread.sleep(2000);
+                Thread.sleep(2000);//waiting purpose
                 driver.close();//close the current window(child winow)
             }
 
